@@ -1,5 +1,5 @@
-text1 = "X-DSPAM-Confidence:    8475"
-text2 = "At 23 he finished college with 97/100 grade"
+str1 = "Participant Number:    8475"
+str2 = "Alice finished university 1 years earlier, with an average grade of 3/4... Mindblowing!"
 
 #extract one INT number 
 
@@ -30,9 +30,5 @@ def extract_the_num(text):
         i=i+1
         
           
-extract_the_num(text1)    
-
-
-            
-
-#extract all INT numbers and put them in a list
+extract_the_num(str1)    
+extract_the_num(str2) 
